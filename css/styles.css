@@ -1,0 +1,53 @@
+:root{
+    --main-title-color: #FFFFFF;
+}
+body{
+    font-family: 'Open sans', sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header{
+    background-color: grey;
+}
+
+.header-list.list{
+    background-color: green;
+}
+
+.header-list{
+    background-color: tomato;
+}
+
+.header-link{
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 1.33;
+   letter-spacing: 0.1em;
+   color: #FFFFFF;
+}
+
+.header-tel{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.header-btn{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
