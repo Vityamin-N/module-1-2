@@ -28,6 +28,10 @@ button{
     cursor: pointer;
 }
 
+img{
+    display: block;
+}
+
 .list{
     list-style: none;
 }
@@ -41,6 +45,21 @@ button{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.btn{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    background-color: transparent;
+    /* width: 160px;
+    height: 40px; */
+    border: 1px solid var(--accent-color);
+    border-radius: 25px;
+    padding: 12px 20px;
 }
 
 /* ---------------HEADER--------------- */
@@ -68,19 +87,9 @@ button{
 }
 
 .header-btn{
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
     color: var(--main-btn-color);
-    width: 160px;
-    height: 40px;
-    border: 1px solid var(--accent-color);
-    border-radius: 25px;
 }
+
 /* ---------------HERO--------------- */
 .hero{
     background-color: gray;
@@ -117,9 +126,15 @@ button{
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: var(--third-text-color);
+    max-width: 400px;
 }
 
 /* ---------------ABOUT--------------- */
+
+.about{
+    padding-top: 139px;
+    padding-bottom: 121px;
+}
 
 .about-pre-title{
     font-weight: 600;
@@ -199,4 +214,6 @@ button{
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: var(--main-btn-color);
+    display: block;
+    margin: 0 auto;
 }
